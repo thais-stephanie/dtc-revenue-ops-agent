@@ -1,0 +1,41 @@
+# --- secrets: never commit a real key -----------------------------------
+.env
+.env.*
+!.env.example
+
+# --- virtualenvs ---------------------------------------------------------
+.venv/
+venv/
+
+# --- python build / cache artifacts --------------------------------------
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+build/
+dist/
+*.egg-info/
+
+# --- generated receipts and reports --------------------------------------
+# Preserved locally as evidence; published later only when deliberately
+# reviewed and sanitised.
+runs/
+evals/reports/
+evals/last_report.json
+
+# --- local runtime artifacts ----------------------------------------------
+*.sqlite
+*.sqlite3
+logs/
+*.log
+tmp/
+temp/
+.playwright-mcp/
+node_modules/
+
+# --- IDE / OS -------------------------------------------------------------
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

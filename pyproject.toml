@@ -1,0 +1,26 @@
+[project]
+name = "dtc-revenue-ops-agent"
+version = "0.1.0"
+description = "An evidence-grounded AI agent for prioritising growth opportunities and account risks across a synthetic DTC portfolio."
+requires-python = ">=3.11"
+dependencies = [
+    "pydantic>=2.6",
+    "pyyaml>=6.0",
+]
+
+[project.optional-dependencies]
+# The deterministic core, the gate and the eval suite run without any of these.
+live = ["anthropic>=0.40"]
+api = ["fastapi>=0.110", "uvicorn>=0.27"]
+db = ["psycopg[binary]>=3.1"]
+dev = ["pytest>=8.0"]
+
+[project.scripts]
+daily-brief = "revenue_agent.daily:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]

@@ -1,0 +1,19 @@
+services:
+  db:
+    image: postgres:16
+    environment:
+      POSTGRES_USER: revenue
+      POSTGRES_PASSWORD: revenue
+      POSTGRES_DB: revenue
+    ports: ["5432:5432"]
+    volumes: ["pgdata:/var/lib/postgresql/data"]
+
+  # Optional. The agent does not depend on it; it reads the same SQL views.
+  metabase:
+    image: metabase/metabase:latest
+    profiles: ["analytics"]
+    ports: ["3000:3000"]
+    depends_on: [db]
+
+volumes:
+  pgdata:
