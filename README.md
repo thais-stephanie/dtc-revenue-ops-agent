@@ -1,3 +1,39 @@
+<p align="center">
+  <img
+    src="docs/img/hero.png"
+    alt="DTC Revenue Operations Agent: Account Radar operator console"
+    width="100%"
+  />
+</p>
+
+<p align="center">
+  <a href="#what-is-real">
+    <img src="https://img.shields.io/badge/status-case_study-fff08a" alt="Case study" />
+  </a>
+  <a href="tests">
+    <img src="https://img.shields.io/badge/tests-305_passed-a7ebcf" alt="305 tests passed" />
+  </a>
+  <a href="evals/BASELINES.md">
+    <img src="https://img.shields.io/badge/live_Claude_runs-5_recorded-d8c8ff" alt="5 live Claude runs recorded" />
+  </a>
+  <a href="docs/UNATTENDED_MODE.md">
+    <img src="https://img.shields.io/badge/Windows_11-tested-bbd6ff" alt="Windows 11 tested" />
+  </a>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.11+-3776AB?logo=python&logoColor=white" alt="Python 3.11+" />
+  <img src="https://img.shields.io/badge/Claude-tool_calling-D97757?logo=anthropic&logoColor=white" alt="Claude tool calling" />
+  <img src="https://img.shields.io/badge/Pydantic-E92063?logo=pydantic&logoColor=white" alt="Pydantic" />
+  <img src="https://img.shields.io/badge/SQLite-run_ledger-003B57?logo=sqlite&logoColor=white" alt="SQLite run ledger" />
+  <img src="https://img.shields.io/badge/PostgreSQL-optional-4169E1?logo=postgresql&logoColor=white" alt="PostgreSQL optional" />
+  <img src="https://img.shields.io/badge/HubSpot-read--only_adapter-FF7A59?logo=hubspot&logoColor=white" alt="HubSpot read-only adapter" />
+  <img src="https://img.shields.io/badge/data-synthetic-f5d76e" alt="Synthetic data" />
+  <a href="LICENSE">
+    <img src="https://img.shields.io/badge/license-MIT-blue" alt="MIT license" />
+  </a>
+</p>
+
 # DTC Revenue Operations Agent
 
 An internal AI agent that decides which ecommerce accounts deserve a human's
