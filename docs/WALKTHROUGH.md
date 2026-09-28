@@ -23,24 +23,6 @@ http://127.0.0.1:8765/?as=sofia — "Hello, Sofia · 1 account in your portfolio
 needs attention today". Then switch to All account managers for the team brief
 (3 accounts).
 
-## 5-minute demo path
-
-1. **Healthy Today** (`/?as=sofia`, then `/`): 30 accounts scanned, the 3 that
-   matter, nothing else to raise.
-2. **Field & Foundry**: open it from Today, "Review recommendation".
-3. **Evidence + review**: "View recorded evidence" shows exactly what was read;
-   "Mark reviewed" is local to the tab and writes nothing.
-4. **Control Room** (`/control`): how the run went and what the gate did.
-5. **Safety drill**: History → the `stale` run (gate: expansion blocked by stale
-   data) → Harbor Home, held back. Or the `bad-citation` run: the gate refused
-   a source Radar never issued.
-6. **Data Sources / HubSpot** (`/sources`): the adapters are
-   ready and not connected to the demo. For proof, run the doctor (below).
-
-To run the scenes in a terminal instead, see [`DEMO.md`](DEMO.md)
-(`python scripts/demo.py healthy | rerun | stale | forbidden-write | timeout`).
-If you run `reset`, finish with `healthy` so the console opens green.
-
 ## Three strongest technical stories
 
 1. **Cinder: the evaluator passed an empty result.** The first live canary

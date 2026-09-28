@@ -34,8 +34,7 @@ attention today, why, and what that human should do next.
   ([`docs/SAFE_WRITE_GATEWAY.md`](docs/SAFE_WRITE_GATEWAY.md)).
 - No business-impact claims: nothing here measured revenue or retention.
 
-Architecture: [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md) · Demo script:
-[`docs/DEMO.md`](docs/DEMO.md) · Console walkthrough:
+Architecture: [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md) · Console walkthrough:
 [`docs/WALKTHROUGH.md`](docs/WALKTHROUGH.md) · One-page card:
 [`docs/TECH_CARD.md`](docs/TECH_CARD.md)
 
